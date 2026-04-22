@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className='bg-[url(photos/char-1.jpg)] bg-contain bg-repeat-round'>
-      <div className='h-dvh w-dvh'>
-        <p className='text-2xl'>Charcraft</p>
+    <div className='bg-slate-800'>
+      <div className='h-dvh w-dvh relative'>
+        <p className='text-2xl top-0 inset-x-0 absolute'>Charcraft</p>
       </div>
     </div>
   );
